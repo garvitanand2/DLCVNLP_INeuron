@@ -1,5 +1,9 @@
-import pandas as pd
+import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
+import joblib  # FOR SAVING MY MODEL AS A BINARY FILE
+from matplotlib.colors import ListedColormap
+
 
 class Perceptron:
   def __init__(self, eta, epochs):
